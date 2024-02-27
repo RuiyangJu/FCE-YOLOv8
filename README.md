@@ -1,6 +1,4 @@
 # Exploiting Feature Contexts in YOLOv8 for Pediatric Wrist Fracture Detection
-
-
 ## Requirements
 * Linux (Ubuntu)
 * Python = 3.9
@@ -96,6 +94,7 @@ For example:
 ### Model Training
 * We have provided a training set, test set and validation set containing a single image that you can run directly by following the steps in the example below.
 * Before training the model, make sure the path to the data in the `./GRAZPEDWRI-DX/data/meta.yaml` file is correct.
+  
 ```
   # patch: /path/to/GRAZPEDWRI-DX/data
   path: 'E:/GRAZPEDWRI-DX/data'
@@ -127,11 +126,12 @@ You can set the value in the `./ultralytics/cfg/default.yaml`.
 | weight_decay | 0.0005 | optimizer weight decay 5e-4 |
 | val | True | validate/test during training |
 
-* Example Traning Steps (yolov8m+GCnet):
+* Training Steps:
+```
+  python start_train.py -model path to model file --data_dir  path to data file
+```
+  
+* Example (yolov8m+GCnet):
 ```
   python start_train.py --model ./ultralytics/cfg/models/v8/yolov8m_GCnet.yaml --data_dir ./GRAZPEDWRI-DX/data/meta.yaml
-```
-* Example Traning Steps (yolov8m_ECA):
-```
-  python start_train.py --model ./ultralytics/cfg/models/v8/yolov8m_ECA.yaml --data_dir ./GRAZPEDWRI-DX/data/meta.yaml
 ```
