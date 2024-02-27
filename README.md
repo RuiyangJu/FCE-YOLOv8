@@ -92,19 +92,7 @@ For example:
                          ├── test_annotation1.txt
                          └── ...
   
-## Methodology
-* We have modified the model architecture of YOLOv8 by adding four types of attention modules, including <b>Shuffle Attention (SA), Efficient Channel Attention (ECA), Global Attention Mechanism (GAM), and ResBlock Convolutional Block Attention Module (ResCBAM)</b>.
-<p align="center">
-  <img src="img/figure_details.jpg" width="1024" title="details">
-</p>
-  
 ## Experiments
-### Experimental Results
-
-<p align="center">
-  <img src="img/figure_result.jpg" width="640" title="640">
-</p>
-
 ### Model Training
 * We have provided a training set, test set and validation set containing a single image that you can run directly by following the steps in the example below.
 * Before training the model, make sure the path to the data in the `./GRAZPEDWRI-DX/data/meta.yaml` file is correct.
