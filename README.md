@@ -14,11 +14,10 @@ If you find our paper useful in your research, please consider citing:
   pip install -r requirements.txt
 ```
 
-## Dataset
-### Dataset Download
+## Dataset Download
 * You can download the GRAZPEDWRI-DX Dataset on this [Link](https://figshare.com/articles/dataset/GRAZPEDWRI-DX/14825193).
 
-### Dataset Split
+## Dataset Split
 * To split the dataset into training set, validation set, and test set, you should first put the image and annotatation into `./GRAZPEDWRI-DX/data/images`, and `./GRAZPEDWRI-DX/data/labels`.
 * And then you can split the dataset as the following step:
   ```
@@ -54,7 +53,7 @@ If you find our paper useful in your research, please consider citing:
 
 The script will create 3 files: `train_data.csv`, `valid_data.csv`, and `test_data.csv` with the same structure of `dataset.csv`.
                       
-### Data Augmentation
+## Data Augmentation
 * Data augmentation of the training set using the addWeighted function doubles the size of the training set.
 ```
   python imgaug.py --input_img /path/to/input/train/ --output_img /path/to/output/train/ --input_label /path/to/input/labels/ --output_label /path/to/output/labels/
