@@ -108,11 +108,11 @@ For example:
 
 ## Train
 * Arguments
-* You can set the value in the `./ultralytics/cfg/default.yaml`.
+You can set the value in the `./ultralytics/cfg/default.yaml`.
 
 | Key | Value | Description |
 | :---: | :---: | :---: |
-| model | None | path to model file, i.e. yolov8m.yaml, yolov8m_ECA.yaml |
+| model | None | path to model file, i.e. yolov8m.yaml, yolov8m_GC_M1.yaml |
 | data | None | path to data file, i.e. coco128.yaml, meta.yaml |
 | epochs | 100 | number of epochs to train for, i.e. 100, 150 |
 | patience | 50 | epochs to wait for no observable improvement for early stopping of training |
