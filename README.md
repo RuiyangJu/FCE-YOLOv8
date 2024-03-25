@@ -15,9 +15,7 @@ If you find our paper useful in your research, please consider citing:
 ```
 
 ## Dataset
-### Download the dataset
 * You can download the GRAZPEDWRI-DX Dataset on this [Link](https://figshare.com/articles/dataset/GRAZPEDWRI-DX/14825193).
-### Split the dataset
 * To split the dataset into training set, validation set, and test set, you should first put the image and annotatation into `./GRAZPEDWRI-DX/data/images`, and `./GRAZPEDWRI-DX/data/labels`.
 * And then you can split the dataset as the following step:
   ```
