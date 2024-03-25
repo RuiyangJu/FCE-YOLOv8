@@ -139,7 +139,7 @@ You can set the value in the `./ultralytics/cfg/default.yaml`.
   <img src="img/figure_arch_1.jpg" width="1024" title="details">
 </p>
 
-* Example (yolov8m+GC):
+* Example (YOLOv8+GC-M, YOLOv8-GCT-M, YOLOv8-GE-M):
 ```
   python start_train.py --model ./ultralytics/cfg/models/v8/yolov8m_GC_M1.yaml --data_dir ./GRAZPEDWRI-DX/data/meta.yaml
 ```
@@ -149,7 +149,7 @@ You can set the value in the `./ultralytics/cfg/default.yaml`.
   <img src="img/figure_arch_2.jpg" width="1024" title="details">
 </p>
 
-* Example (yolov8m+GC):
+* Example (YOLOv8+GC-M, YOLOv8-GCT-M, YOLOv8-GE-M):
 ```
   python start_train.py --model ./ultralytics/cfg/models/v8/yolov8m_GC_M1.yaml --data_dir ./GRAZPEDWRI-DX/data/meta.yaml
 ```
@@ -158,7 +158,7 @@ You can set the value in the `./ultralytics/cfg/default.yaml`.
   <img src="img/figure_arch_3.jpg" width="1024" title="details">
 </p>
 
-* Example (yolov8m+GC):
+* Example (YOLOv8+GC-M, YOLOv8-GCT-M, YOLOv8-GE-M):
 ```
   python start_train.py --model ./ultralytics/cfg/models/v8/yolov8m_GC_M1.yaml --data_dir ./GRAZPEDWRI-DX/data/meta.yaml
 ```
