@@ -106,7 +106,7 @@ For example:
   test: 'images/test'
 ```
 
-* Arguments
+## Train
 
 You can set the value in the `./ultralytics/cfg/default.yaml`.
 
