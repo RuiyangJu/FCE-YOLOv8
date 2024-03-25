@@ -1,4 +1,8 @@
 # Exploiting Feature Contexts in YOLOv8 for Pediatric Wrist Fracture Detection
+
+## Citation
+If you find our paper useful in your research, please consider citing:
+
 ## Requirements
 * Linux (Ubuntu)
 * Python = 3.9
