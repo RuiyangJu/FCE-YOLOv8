@@ -107,7 +107,7 @@ For example:
 ```
 
 ## Train
-* Arguments
+### Arguments
 You can set the value in the `./ultralytics/cfg/default.yaml`.
 
 | Key | Value | Description |
@@ -129,20 +129,39 @@ You can set the value in the `./ultralytics/cfg/default.yaml`.
 | weight_decay | 0.0005 | optimizer weight decay 5e-4 |
 | val | True | validate/test during training |
 
-<p align="left">
-  <img src="img/figure_arch_1.jpg" width="640" title="details">
-</p>
-
 * Training Steps:
 ```
   python start_train.py -model path to model file --data_dir  path to data file
 ```
-  
+
+### Method 1
+<p align="left">
+  <img src="img/figure_arch_1.jpg" width="1024" title="details">
+</p>
+
 * Example (yolov8m+GC):
 ```
   python start_train.py --model ./ultralytics/cfg/models/v8/yolov8m_GC_M1.yaml --data_dir ./GRAZPEDWRI-DX/data/meta.yaml
 ```
 
+### Method 2
+<p align="left">
+  <img src="img/figure_arch_2.jpg" width="1024" title="details">
+</p>
+
+* Example (yolov8m+GC):
+```
+  python start_train.py --model ./ultralytics/cfg/models/v8/yolov8m_GC_M1.yaml --data_dir ./GRAZPEDWRI-DX/data/meta.yaml
+```
+### Method 3
+<p align="left">
+  <img src="img/figure_arch_3.jpg" width="1024" title="details">
+</p>
+
+* Example (yolov8m+GC):
+```
+  python start_train.py --model ./ultralytics/cfg/models/v8/yolov8m_GC_M1.yaml --data_dir ./GRAZPEDWRI-DX/data/meta.yaml
+```
 ## Related Works
 
 <details><summary> <b>Expand</b> </summary>
