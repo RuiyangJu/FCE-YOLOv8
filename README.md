@@ -142,3 +142,13 @@ You can set the value in the `./ultralytics/cfg/default.yaml`.
 ```
   python start_train.py --model ./ultralytics/cfg/models/v8/yolov8m_GC_M1.yaml --data_dir ./GRAZPEDWRI-DX/data/meta.yaml
 ```
+
+## Related Works
+
+<details><summary> <b>Expand</b> </summary>
+
+* [https://github.com/RuiyangJu/Bone_Fracture_Detection_YOLOv8](https://github.com/RuiyangJu/Bone_Fracture_Detection_YOLOv8)
+* [https://github.com/RuiyangJu/Fracture_Detection_Improved_YOLOv8](https://github.com/RuiyangJu/Fracture_Detection_Improved_YOLOv8)
+* [https://github.com/RuiyangJu/YOLOv9-Fracture-Detection](https://github.com/RuiyangJu/YOLOv9-Fracture-Detection)
+
+</details>
