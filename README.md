@@ -131,7 +131,7 @@ You can set the value in the `./ultralytics/cfg/default.yaml`.
   python start_train.py -model path to model file --data_dir  path to data file
 ```
   
-* Example (yolov8m+GCnet):
+* Example (yolov8m+GC):
 ```
-  python start_train.py --model ./ultralytics/cfg/models/v8/yolov8m_GCnet.yaml --data_dir ./GRAZPEDWRI-DX/data/meta.yaml
+  python start_train.py --model ./ultralytics/cfg/models/v8/yolov8m_GC_M1.yaml --data_dir ./GRAZPEDWRI-DX/data/meta.yaml
 ```
