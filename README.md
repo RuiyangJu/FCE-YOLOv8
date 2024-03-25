@@ -126,6 +126,10 @@ You can set the value in the `./ultralytics/cfg/default.yaml`.
 | weight_decay | 0.0005 | optimizer weight decay 5e-4 |
 | val | True | validate/test during training |
 
+<p align="left">
+  <img src="img/figure_arch_1.jpg" width="640" title="details">
+</p>
+
 * Training Steps:
 ```
   python start_train.py -model path to model file --data_dir  path to data file
