@@ -107,8 +107,8 @@ For example:
 ```
 
 ## Train
-
-You can set the value in the `./ultralytics/cfg/default.yaml`.
+* Arguments
+* You can set the value in the `./ultralytics/cfg/default.yaml`.
 
 | Key | Value | Description |
 | :---: | :---: | :---: |
