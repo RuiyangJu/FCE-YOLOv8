@@ -142,6 +142,8 @@ You can set the value in the `./ultralytics/cfg/default.yaml`.
 * Example (YOLOv8+GC-M, YOLOv8-GCT-M, YOLOv8-GE-M):
 ```
   python start_train.py --model ./ultralytics/cfg/models/v8/yolov8m_GC_M1.yaml --data_dir ./GRAZPEDWRI-DX/data/meta.yaml
+  python start_train.py --model ./ultralytics/cfg/models/v8/yolov8m_GCT_M1.yaml --data_dir ./GRAZPEDWRI-DX/data/meta.yaml
+  python start_train.py --model ./ultralytics/cfg/models/v8/yolov8m_GE_M1.yaml --data_dir ./GRAZPEDWRI-DX/data/meta.yaml
 ```
 
 ### Method 2
@@ -152,6 +154,8 @@ You can set the value in the `./ultralytics/cfg/default.yaml`.
 * Example (YOLOv8+GC-M, YOLOv8-GCT-M, YOLOv8-GE-M):
 ```
   python start_train.py --model ./ultralytics/cfg/models/v8/yolov8m_GC_M1.yaml --data_dir ./GRAZPEDWRI-DX/data/meta.yaml
+  python start_train.py --model ./ultralytics/cfg/models/v8/yolov8m_GCT_M1.yaml --data_dir ./GRAZPEDWRI-DX/data/meta.yaml
+  python start_train.py --model ./ultralytics/cfg/models/v8/yolov8m_GE_M1.yaml --data_dir ./GRAZPEDWRI-DX/data/meta.yaml
 ```
 ### Method 3
 <p align="left">
@@ -161,6 +165,8 @@ You can set the value in the `./ultralytics/cfg/default.yaml`.
 * Example (YOLOv8+GC-M, YOLOv8-GCT-M, YOLOv8-GE-M):
 ```
   python start_train.py --model ./ultralytics/cfg/models/v8/yolov8m_GC_M1.yaml --data_dir ./GRAZPEDWRI-DX/data/meta.yaml
+  python start_train.py --model ./ultralytics/cfg/models/v8/yolov8m_GCT_M1.yaml --data_dir ./GRAZPEDWRI-DX/data/meta.yaml
+  python start_train.py --model ./ultralytics/cfg/models/v8/yolov8m_GE_M1.yaml --data_dir ./GRAZPEDWRI-DX/data/meta.yaml
 ```
 ## Related Works
 
