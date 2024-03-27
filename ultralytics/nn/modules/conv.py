@@ -597,7 +597,7 @@ class SqueezeExcitation(nn.Module):
             self, channels, feat_size=None, extra_params=False, extent=0, use_mlp=True,
             rd_ratio=1. / 16, rd_channels=None, rd_divisor=1, add_maxpool=False,
             act_layer=nn.ReLU, norm_layer=nn.BatchNorm2d, gate_layer='sigmoid'):
-        super(GatherExcite, self).__init__()
+        super(SqueezeExcitation, self).__init__()
         self.add_maxpool = add_maxpool
         act_layer = get_act_layer(act_layer)
         self.extent = extent
