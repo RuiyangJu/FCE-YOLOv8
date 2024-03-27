@@ -17,7 +17,7 @@ from .block import (C1, C2, C3, C3TR, DFL, SPP, SPPF, Bottleneck, BottleneckCSP,
                     HGBlock, HGStem, Proto, RepC3)
 from .conv import (CBAM, ChannelAttention, Concat, Conv, Conv2, ConvTranspose, DWConv, DWConvTranspose2d, Focus,
                    GhostConv, LightConv, RepConv, SpatialAttention,
-                   GAM_Attention,GCT,ShuffleAttention,ResBlock_CBAM,ECAAttention,MHSA,GlobalContext,GatherExcite)
+                   GAM_Attention,GCT,ShuffleAttention,ResBlock_CBAM,ECAAttention,MHSA,GlobalContext,SqueezeExcitation,GatherExcite)
 from .head import Classify, Detect, Pose, RTDETRDecoder, Segment
 from .transformer import (AIFI, MLP, DeformableTransformerDecoder, DeformableTransformerDecoderLayer, LayerNorm2d,
                           MLPBlock, MSDeformAttn, TransformerBlock, TransformerEncoderLayer, TransformerLayer)
@@ -28,4 +28,4 @@ __all__ = ('Conv', 'Conv2', 'LightConv', 'RepConv', 'DWConv', 'DWConvTranspose2d
            'C2f', 'C3x', 'C3TR', 'C3Ghost', 'GhostBottleneck', 'Bottleneck', 'BottleneckCSP', 'Proto', 'Detect',
            'Segment', 'Pose', 'Classify', 'TransformerEncoderLayer', 'RepC3', 'RTDETRDecoder', 'AIFI',
            'DeformableTransformerDecoder', 'DeformableTransformerDecoderLayer', 'MSDeformAttn', 'MLP',
-           'GAM_Attention','GCT','ShuffleAttention','ResBlock_CBAM','ECAAttention','MHSA','GatherExcite','GlobalContext')
+           'GAM_Attention','GCT','ShuffleAttention','ResBlock_CBAM','ECAAttention','MHSA','GatherExcite','SqueezeExcitation','GlobalContext')
