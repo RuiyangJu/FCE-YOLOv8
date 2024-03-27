@@ -143,10 +143,11 @@ You can set the value in the `./ultralytics/cfg/default.yaml`.
   <img src="img/figure_arch_1.jpg" width="1024" title="details">
 </p>
 
-* Example (YOLOv8+GC-M, YOLOv8-GCT-M, YOLOv8-GE-M):
+* Example (YOLOv8+GC-M, YOLOv8-GCT-M, YOLOv8-SE-M, YOLOv8-GE-M):
 ```
   python start_train.py --model ./ultralytics/cfg/models/v8/yolov8m_GC_M1.yaml --data_dir ./GRAZPEDWRI-DX/data/meta.yaml
   python start_train.py --model ./ultralytics/cfg/models/v8/yolov8m_GCT_M1.yaml --data_dir ./GRAZPEDWRI-DX/data/meta.yaml
+  python start_train.py --model ./ultralytics/cfg/models/v8/yolov8m_SE_M1.yaml --data_dir ./GRAZPEDWRI-DX/data/meta.yaml
   python start_train.py --model ./ultralytics/cfg/models/v8/yolov8m_GE_M1.yaml --data_dir ./GRAZPEDWRI-DX/data/meta.yaml
 ```
 
@@ -155,22 +156,24 @@ You can set the value in the `./ultralytics/cfg/default.yaml`.
   <img src="img/figure_arch_2.jpg" width="1024" title="details">
 </p>
 
-* Example (YOLOv8+GC-M, YOLOv8-GCT-M, YOLOv8-GE-M):
+* Example (YOLOv8+GC-M, YOLOv8-GCT-M, YOLOv8-SE-M, YOLOv8-GE-M):
 ```
-  python start_train.py --model ./ultralytics/cfg/models/v8/yolov8m_GC_M1.yaml --data_dir ./GRAZPEDWRI-DX/data/meta.yaml
-  python start_train.py --model ./ultralytics/cfg/models/v8/yolov8m_GCT_M1.yaml --data_dir ./GRAZPEDWRI-DX/data/meta.yaml
-  python start_train.py --model ./ultralytics/cfg/models/v8/yolov8m_GE_M1.yaml --data_dir ./GRAZPEDWRI-DX/data/meta.yaml
+  python start_train.py --model ./ultralytics/cfg/models/v8/yolov8m_GC_M2.yaml --data_dir ./GRAZPEDWRI-DX/data/meta.yaml
+  python start_train.py --model ./ultralytics/cfg/models/v8/yolov8m_GCT_M2.yaml --data_dir ./GRAZPEDWRI-DX/data/meta.yaml
+  python start_train.py --model ./ultralytics/cfg/models/v8/yolov8m_SE_M2.yaml --data_dir ./GRAZPEDWRI-DX/data/meta.yaml
+  python start_train.py --model ./ultralytics/cfg/models/v8/yolov8m_GE_M2.yaml --data_dir ./GRAZPEDWRI-DX/data/meta.yaml
 ```
 ### Method 3
 <p align="left">
   <img src="img/figure_arch_3.jpg" width="1024" title="details">
 </p>
 
-* Example (YOLOv8+GC-M, YOLOv8-GCT-M, YOLOv8-GE-M):
+* Example (YOLOv8+GC-M, YOLOv8-GCT-M, YOLOv8-SE-M, YOLOv8-GE-M):
 ```
-  python start_train.py --model ./ultralytics/cfg/models/v8/yolov8m_GC_M1.yaml --data_dir ./GRAZPEDWRI-DX/data/meta.yaml
-  python start_train.py --model ./ultralytics/cfg/models/v8/yolov8m_GCT_M1.yaml --data_dir ./GRAZPEDWRI-DX/data/meta.yaml
-  python start_train.py --model ./ultralytics/cfg/models/v8/yolov8m_GE_M1.yaml --data_dir ./GRAZPEDWRI-DX/data/meta.yaml
+  python start_train.py --model ./ultralytics/cfg/models/v8/yolov8m_GC_M3.yaml --data_dir ./GRAZPEDWRI-DX/data/meta.yaml
+  python start_train.py --model ./ultralytics/cfg/models/v8/yolov8m_GCT_M3.yaml --data_dir ./GRAZPEDWRI-DX/data/meta.yaml
+  python start_train.py --model ./ultralytics/cfg/models/v8/yolov8m_SE_M3.yaml --data_dir ./GRAZPEDWRI-DX/data/meta.yaml
+  python start_train.py --model ./ultralytics/cfg/models/v8/yolov8m_GE_M3.yaml --data_dir ./GRAZPEDWRI-DX/data/meta.yaml
 ```
 ## Related Works
 
