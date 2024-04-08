@@ -1,5 +1,9 @@
 # FCE-YOLOv8: Feature Contexts Excitation in YOLOv8 for Pediatric Wrist Fracture Detection
+
 ## Comparison
+<p align="left">
+  <img src="img/figure_comparison.jpg" width="480" title="details">
+</p>
 
 ## Performance
 
