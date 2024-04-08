@@ -1,5 +1,4 @@
-# Exploiting Feature Contexts in YOLOv8 for Pediatric Wrist Fracture Detection
-
+# FCE-YOLOv8: Feature Contexts Excitation in YOLOv8 for Pediatric Wrist Fracture Detection
 ## Comparison
 
 ## Performance
