@@ -1,5 +1,7 @@
 # FCE-YOLOv8
 
+>[FCE-YOLOv8: YOLOv8 with Feature Context Excitation Modules for Fracture Detection in Pediatric Wrist X-ray Images](https://arxiv.org/abs/)
+
 ## Comparison
 <p align="left">
   <img src="img/figure_comparison.jpg" width="480" title="details">
