@@ -27,8 +27,8 @@
 ## Citation
 If you find our paper useful in your research, please consider citing:
 ```
-  @article{ju2024fce,
-    title={FCE-YOLOv8: YOLOv8 with Feature Context Excitation Modules for Fracture Detection in Pediatric Wrist X-ray Images},
+  @article{ju2024pediatric,
+    title={Pediatric Wrist Fracture Detection Using Feature Context Excitation Modules in X-ray Images},
     author={Ju, Rui-Yang and Chien, Chun-Tse and Xieerke, Enkaer and Chiang, Jen-Shiun},
     journal={arXiv preprint arXiv:2410.01031},
     year={2024}
