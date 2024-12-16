@@ -35,11 +35,6 @@ If you find our paper useful in your research, please consider citing:
   }
 ```
 
-## Requirements
-* Linux (Ubuntu)
-* NVIDIA GPU + CUDA CuDNN
-* Python & Pytorch
-
 ## Environment
 ```
   pip install -r requirements.txt
