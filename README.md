@@ -27,11 +27,15 @@
 ## Citation
 If you find our paper useful in your research, please consider citing:
 ```
-  @article{ju2024pediatric,
+  @article{ju2026pediatric,
     title={Pediatric Wrist Fracture Detection Using Feature Context Excitation Modules in X-ray Images},
     author={Ju, Rui-Yang and Chien, Chun-Tse and Xieerke, Enkaer and Chiang, Jen-Shiun},
-    journal={arXiv preprint arXiv:2410.01031},
-    year={2024}
+    journal={IET Image Processing},
+    volume={20},
+    number={1},
+    pages={e70269},
+    year={2026},
+    publisher={Wiley Online Library}
   }
 ```
 
